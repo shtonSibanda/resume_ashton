@@ -6,41 +6,41 @@ import { Calendar, MapPin } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "Senior Network Engineer",
+      title: "Network Engineer",
       company: "TechCorp Solutions",
       location: "San Francisco, CA",
-      period: "2021 - Present",
+      period: "2023 - Present",
       description: [
-        "Designed and implemented enterprise network infrastructure serving 1M+ users",
-        "Led network security initiatives reducing incidents by 60%",
-        "Optimized network performance achieving 99.9% uptime",
-        "Mentored junior network engineers and established best practices"
+        "Configure and maintain network infrastructure for small-to-medium businesses",
+        "Assist with network security implementation and monitoring",
+        "Troubleshoot connectivity issues and perform network diagnostics",
+        "Document network configurations and create technical reports"
       ],
-      technologies: ["Cisco IOS", "BGP", "MPLS", "Firewalls", "Network Monitoring"]
+      technologies: ["Cisco IOS", "BGP", "VLAN", "Firewalls", "Network Monitoring"]
     },
     {
       title: "System Administrator",
       company: "DataFlow Systems",
       location: "Seattle, WA",
-      period: "2019 - 2021",
+      period: "2022 - 2023",
       description: [
-        "Managed Windows and Linux server environments for 500+ users",
-        "Implemented automated backup and disaster recovery solutions",
-        "Maintained Active Directory and user access management systems",
-        "Deployed and configured virtualization infrastructure using VMware"
+        "Managed Windows and Linux server environments for 100+ users",
+        "Assisted with backup and disaster recovery procedures",
+        "Maintained Active Directory and user access management",
+        "Supported virtualization infrastructure using VMware"
       ],
       technologies: ["Windows Server", "Linux", "VMware", "Active Directory", "PowerShell", "Bash"]
     },
     {
-      title: "Network Engineer",
+      title: "Junior Network Technician",
       company: "Innovation Labs",
       location: "New York, NY",
-      period: "2018 - 2019",
+      period: "2021 - 2022",
       description: [
-        "Configured and maintained enterprise network infrastructure",
-        "Implemented network security policies and access controls",
-        "Troubleshot complex network connectivity issues",
-        "Collaborated with IT teams on network integration projects"
+        "Assisted with network infrastructure configuration and maintenance",
+        "Supported network security policy implementation",
+        "Performed basic network troubleshooting and diagnostics",
+        "Collaborated with senior engineers on network projects"
       ],
       technologies: ["Juniper", "OSPF", "VPN", "Network Security", "VLAN", "Wireshark"]
     },
@@ -48,9 +48,9 @@ const Experience = () => {
       title: "IT Support Specialist",
       company: "TechStart Inc",
       location: "Austin, TX",
-      period: "2016 - 2018",
+      period: "2020 - 2021",
       description: [
-        "Provided technical support for 200+ employees across multiple departments",
+        "Provided technical support for 150+ employees across multiple departments",
         "Resolved hardware and software issues for desktop and mobile devices",
         "Maintained IT inventory and asset management systems",
         "Created documentation and training materials for end users"
