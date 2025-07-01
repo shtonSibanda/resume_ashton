@@ -19,30 +19,43 @@ const Experience = () => {
       technologies: ["Cisco IOS", "BGP", "MPLS", "Firewalls", "Network Monitoring"]
     },
     {
+      title: "System Administrator",
+      company: "DataFlow Systems",
+      location: "Seattle, WA",
+      period: "2019 - 2021",
+      description: [
+        "Managed Windows and Linux server environments for 500+ users",
+        "Implemented automated backup and disaster recovery solutions",
+        "Maintained Active Directory and user access management systems",
+        "Deployed and configured virtualization infrastructure using VMware"
+      ],
+      technologies: ["Windows Server", "Linux", "VMware", "Active Directory", "PowerShell", "Bash"]
+    },
+    {
       title: "Network Engineer",
       company: "Innovation Labs",
       location: "New York, NY",
-      period: "2019 - 2021",
+      period: "2018 - 2019",
       description: [
-        "Managed enterprise network infrastructure and routing protocols",
+        "Configured and maintained enterprise network infrastructure",
         "Implemented network security policies and access controls",
-        "Configured and maintained VPN connections for remote access",
+        "Troubleshot complex network connectivity issues",
         "Collaborated with IT teams on network integration projects"
       ],
-      technologies: ["Juniper", "OSPF", "VPN", "Network Security", "VLAN"]
+      technologies: ["Juniper", "OSPF", "VPN", "Network Security", "VLAN", "Wireshark"]
     },
     {
-      title: "Network Administrator",
-      company: "StartupCo",
+      title: "IT Support Specialist",
+      company: "TechStart Inc",
       location: "Austin, TX",
-      period: "2017 - 2019",
+      period: "2016 - 2018",
       description: [
-        "Maintained network equipment and monitored performance",
-        "Implemented network troubleshooting procedures",
-        "Configured switches and routers for optimal performance",
-        "Documented network configurations and procedures"
+        "Provided technical support for 200+ employees across multiple departments",
+        "Resolved hardware and software issues for desktop and mobile devices",
+        "Maintained IT inventory and asset management systems",
+        "Created documentation and training materials for end users"
       ],
-      technologies: ["Cisco Switches", "Network Troubleshooting", "SNMP", "Network Documentation"]
+      technologies: ["Help Desk", "Windows 10", "Office 365", "Mobile Device Management", "Ticketing Systems"]
     }
   ];
 
@@ -54,7 +67,7 @@ const Experience = () => {
             Work Experience
           </h2>
           <p className="text-xl text-slate-300 max-w-2xl mx-auto">
-            My professional journey in building and maintaining network infrastructures
+            My professional journey in IT infrastructure, network management, and technical support
           </p>
         </div>
 
