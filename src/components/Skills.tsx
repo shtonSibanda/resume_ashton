@@ -27,22 +27,22 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="py-20 px-6 bg-slate-900/50">
+    <section id="skills" className="py-20 px-6 bg-gray-50">
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
             Technical Skills
           </h2>
-          <p className="text-xl text-slate-300 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             A comprehensive toolkit built through years of hands-on network engineering experience
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {skillCategories.map((category, index) => (
-            <Card key={index} className="bg-slate-800/50 border-slate-700 hover:bg-slate-800/70 transition-all duration-300">
+            <Card key={index} className="bg-white border-gray-200 hover:shadow-lg transition-all duration-300">
               <CardHeader>
-                <CardTitle className="text-xl font-semibold text-white">
+                <CardTitle className="text-xl font-semibold text-gray-800">
                   {category.title}
                 </CardTitle>
               </CardHeader>
@@ -52,7 +52,7 @@ const Skills = () => {
                     <Badge 
                       key={skillIndex} 
                       variant="secondary" 
-                      className="bg-gradient-to-r from-blue-600/20 to-teal-600/20 text-blue-300 border-blue-500/30 hover:from-blue-600/30 hover:to-teal-600/30 transition-all duration-200"
+                      className="bg-gradient-to-r from-rose-100 to-emerald-100 text-gray-700 border-gray-200 hover:from-rose-200 hover:to-emerald-200 transition-all duration-200"
                     >
                       {skill}
                     </Badge>

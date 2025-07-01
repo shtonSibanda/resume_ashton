@@ -60,32 +60,32 @@ const Experience = () => {
   ];
 
   return (
-    <section id="experience" className="py-20 px-6">
+    <section id="experience" className="py-20 px-6 bg-white">
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
             Work Experience
           </h2>
-          <p className="text-xl text-slate-300 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             My professional journey in IT infrastructure, network management, and technical support
           </p>
         </div>
 
         <div className="space-y-8">
           {experiences.map((exp, index) => (
-            <Card key={index} className="bg-slate-800/50 border-slate-700 hover:bg-slate-800/70 transition-all duration-300">
+            <Card key={index} className="bg-white border-gray-200 hover:shadow-lg transition-all duration-300">
               <CardHeader>
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                   <div>
-                    <h3 className="text-2xl font-bold text-white">{exp.title}</h3>
-                    <p className="text-xl text-blue-400 font-semibold">{exp.company}</p>
+                    <h3 className="text-2xl font-bold text-gray-800">{exp.title}</h3>
+                    <p className="text-xl text-rose-600 font-semibold">{exp.company}</p>
                   </div>
                   <div className="flex flex-col md:items-end gap-2">
-                    <div className="flex items-center gap-2 text-slate-400">
+                    <div className="flex items-center gap-2 text-gray-600">
                       <Calendar className="h-4 w-4" />
                       <span>{exp.period}</span>
                     </div>
-                    <div className="flex items-center gap-2 text-slate-400">
+                    <div className="flex items-center gap-2 text-gray-600">
                       <MapPin className="h-4 w-4" />
                       <span>{exp.location}</span>
                     </div>
@@ -93,10 +93,10 @@ const Experience = () => {
                 </div>
               </CardHeader>
               <CardContent>
-                <ul className="space-y-2 mb-6 text-slate-300">
+                <ul className="space-y-2 mb-6 text-gray-700">
                   {exp.description.map((item, itemIndex) => (
                     <li key={itemIndex} className="flex items-start gap-2">
-                      <span className="text-blue-400 mt-2 text-xs">▸</span>
+                      <span className="text-emerald-500 mt-2 text-xs">▸</span>
                       <span>{item}</span>
                     </li>
                   ))}
@@ -106,7 +106,7 @@ const Experience = () => {
                     <Badge 
                       key={techIndex} 
                       variant="outline" 
-                      className="border-blue-500/30 text-blue-300 hover:bg-blue-500/10"
+                      className="border-emerald-300 text-emerald-700 hover:bg-emerald-50"
                     >
                       {tech}
                     </Badge>

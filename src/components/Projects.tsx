@@ -33,37 +33,37 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="py-20 px-6 bg-slate-900/50">
+    <section id="projects" className="py-20 px-6 bg-gray-50">
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
             Featured Projects
           </h2>
-          <p className="text-xl text-slate-300 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             A showcase of my recent work and technical achievements
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            <Card key={index} className="bg-slate-800/50 border-slate-700 hover:bg-slate-800/70 transition-all duration-300 hover:scale-105 overflow-hidden">
+            <Card key={index} className="bg-white border-gray-200 hover:shadow-lg transition-all duration-300 hover:scale-105 overflow-hidden">
               <div className="relative h-48 overflow-hidden">
                 <img 
                   src={project.image} 
                   alt={project.title}
                   className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-gray-900/60 to-transparent"></div>
               </div>
               
               <CardHeader>
-                <CardTitle className="text-xl font-bold text-white">
+                <CardTitle className="text-xl font-bold text-gray-800">
                   {project.title}
                 </CardTitle>
               </CardHeader>
               
               <CardContent className="space-y-4">
-                <p className="text-slate-300 text-sm leading-relaxed">
+                <p className="text-gray-600 text-sm leading-relaxed">
                   {project.description}
                 </p>
                 
@@ -72,7 +72,7 @@ const Projects = () => {
                     <Badge 
                       key={techIndex} 
                       variant="secondary" 
-                      className="bg-gradient-to-r from-blue-600/20 to-teal-600/20 text-blue-300 border-blue-500/30"
+                      className="bg-gradient-to-r from-rose-100 to-emerald-100 text-gray-700 border-gray-200"
                     >
                       {tech}
                     </Badge>
@@ -83,14 +83,14 @@ const Projects = () => {
                   <Button 
                     variant="outline" 
                     size="sm" 
-                    className="border-slate-600 text-slate-300 hover:bg-slate-700 flex-1"
+                    className="border-gray-300 text-gray-700 hover:bg-gray-50 flex-1"
                   >
                     <Github className="h-4 w-4 mr-2" />
                     Code
                   </Button>
                   <Button 
                     size="sm" 
-                    className="bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700 flex-1"
+                    className="bg-gradient-to-r from-rose-500 to-emerald-500 hover:from-rose-600 hover:to-emerald-600 flex-1"
                   >
                     <ExternalLink className="h-4 w-4 mr-2" />
                     Demo
