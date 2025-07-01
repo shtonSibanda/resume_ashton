@@ -1,28 +1,28 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { Code2, Database, Cloud, Users } from "lucide-react";
+import { Network, Shield, Server, Users } from "lucide-react";
 
 const About = () => {
   const highlights = [
     {
-      icon: Code2,
-      title: "Full-Stack Development",
-      description: "Expert in modern web technologies and frameworks"
+      icon: Network,
+      title: "Network Architecture",
+      description: "Expert in designing scalable and reliable network infrastructures"
     },
     {
-      icon: Cloud,
-      title: "Cloud Architecture",
-      description: "AWS and Azure certified with scalable solutions"
+      icon: Shield,
+      title: "Network Security",
+      description: "Certified in cybersecurity with focus on network protection"
     },
     {
-      icon: Database,
-      title: "Database Design",
-      description: "Optimized data structures and query performance"
+      icon: Server,
+      title: "Infrastructure Management",
+      description: "Optimized network performance and server configurations"
     },
     {
       icon: Users,
       title: "Team Leadership",
-      description: "Leading cross-functional teams and mentoring developers"
+      description: "Leading network operations teams and mentoring engineers"
     }
   ];
 
@@ -34,9 +34,9 @@ const About = () => {
             About Me
           </h2>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-            I'm a passionate IT professional with a strong background in software engineering, 
-            system architecture, and team leadership. I thrive on solving complex problems 
-            and building scalable solutions that make a real impact.
+            I'm a passionate IT professional with a strong background in network engineering, 
+            infrastructure design, and team leadership. I thrive on solving complex network 
+            challenges and building reliable systems that ensure seamless connectivity.
           </p>
         </div>
 

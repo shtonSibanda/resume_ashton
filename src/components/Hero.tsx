@@ -34,11 +34,11 @@ const Hero = () => {
               John Doe
             </h1>
             <p className="text-xl md:text-2xl text-slate-300 font-light">
-              Senior Software Engineer & IT Professional
+              Senior Network Engineer & IT Professional
             </p>
             <p className="text-lg text-slate-400 max-w-2xl mx-auto leading-relaxed">
-              Passionate about creating innovative solutions with 8+ years of experience in 
-              full-stack development, cloud architecture, and team leadership.
+              Passionate about designing and maintaining robust network infrastructures with 8+ years of experience in 
+              network architecture, security, and infrastructure management.
             </p>
           </div>
 

@@ -5,24 +5,24 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Frontend Technologies",
-      skills: ["React", "TypeScript", "Next.js", "Vue.js", "Angular", "Tailwind CSS", "SASS", "JavaScript ES6+"]
+      title: "Network Technologies",
+      skills: ["Cisco IOS", "Juniper JunOS", "BGP", "OSPF", "EIGRP", "MPLS", "VPN", "VLAN"]
     },
     {
-      title: "Backend Technologies",
-      skills: ["Node.js", "Python", "Java", "C#", ".NET Core", "Express.js", "Django", "Spring Boot"]
+      title: "Network Security",
+      skills: ["Firewalls", "IDS/IPS", "VPN", "Network Access Control", "SSL/TLS", "IPSec", "Network Segmentation"]
     },
     {
-      title: "Databases & Storage",
-      skills: ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Elasticsearch", "SQLite", "DynamoDB"]
+      title: "Infrastructure & Hardware",
+      skills: ["Cisco Switches", "Juniper Routers", "Load Balancers", "WAN Optimization", "Network Monitoring", "Cabling Systems"]
     },
     {
-      title: "Cloud & DevOps",
-      skills: ["AWS", "Azure", "Docker", "Kubernetes", "Jenkins", "GitLab CI/CD", "Terraform", "Nginx"]
+      title: "Cloud & Virtualization",
+      skills: ["AWS Networking", "Azure Network", "VMware NSX", "Software-Defined Networking", "Container Networking", "Hybrid Cloud"]
     },
     {
-      title: "Tools & Methodologies",
-      skills: ["Git", "Agile/Scrum", "Microservices", "REST APIs", "GraphQL", "Testing", "Code Review"]
+      title: "Tools & Protocols",
+      skills: ["Wireshark", "SolarWinds", "SNMP", "NetFlow", "Syslog", "Network Automation", "Python Scripting"]
     }
   ];
 
@@ -34,7 +34,7 @@ const Skills = () => {
             Technical Skills
           </h2>
           <p className="text-xl text-slate-300 max-w-2xl mx-auto">
-            A comprehensive toolkit built through years of hands-on experience
+            A comprehensive toolkit built through years of hands-on network engineering experience
           </p>
         </div>
 

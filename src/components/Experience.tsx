@@ -6,43 +6,43 @@ import { Calendar, MapPin } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "Senior Software Engineer",
+      title: "Senior Network Engineer",
       company: "TechCorp Solutions",
       location: "San Francisco, CA",
       period: "2021 - Present",
       description: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Mentored junior developers and conducted code reviews",
-        "Reduced system latency by 40% through optimization initiatives",
-        "Implemented CI/CD pipelines improving deployment efficiency by 60%"
+        "Designed and implemented enterprise network infrastructure serving 1M+ users",
+        "Led network security initiatives reducing incidents by 60%",
+        "Optimized network performance achieving 99.9% uptime",
+        "Mentored junior network engineers and established best practices"
       ],
-      technologies: ["React", "Node.js", "AWS", "PostgreSQL", "Docker"]
+      technologies: ["Cisco IOS", "BGP", "MPLS", "Firewalls", "Network Monitoring"]
     },
     {
-      title: "Full Stack Developer",
+      title: "Network Engineer",
       company: "Innovation Labs",
       location: "New York, NY",
       period: "2019 - 2021",
       description: [
-        "Developed and maintained web applications using modern tech stack",
-        "Collaborated with UX/UI designers to implement responsive designs",
-        "Integrated third-party APIs and payment processing systems",
-        "Participated in Agile development processes and sprint planning"
+        "Managed enterprise network infrastructure and routing protocols",
+        "Implemented network security policies and access controls",
+        "Configured and maintained VPN connections for remote access",
+        "Collaborated with IT teams on network integration projects"
       ],
-      technologies: ["Vue.js", "Python", "Django", "MySQL", "Azure"]
+      technologies: ["Juniper", "OSPF", "VPN", "Network Security", "VLAN"]
     },
     {
-      title: "Software Developer",
+      title: "Network Administrator",
       company: "StartupCo",
       location: "Austin, TX",
       period: "2017 - 2019",
       description: [
-        "Built RESTful APIs and database schemas from scratch",
-        "Implemented automated testing suites achieving 90% code coverage",
-        "Optimized database queries reducing response times by 50%",
-        "Contributed to technical documentation and best practices"
+        "Maintained network equipment and monitored performance",
+        "Implemented network troubleshooting procedures",
+        "Configured switches and routers for optimal performance",
+        "Documented network configurations and procedures"
       ],
-      technologies: ["JavaScript", "Express.js", "MongoDB", "Git"]
+      technologies: ["Cisco Switches", "Network Troubleshooting", "SNMP", "Network Documentation"]
     }
   ];
 
@@ -54,7 +54,7 @@ const Experience = () => {
             Work Experience
           </h2>
           <p className="text-xl text-slate-300 max-w-2xl mx-auto">
-            My professional journey in building scalable software solutions
+            My professional journey in building and maintaining network infrastructures
           </p>
         </div>
 
