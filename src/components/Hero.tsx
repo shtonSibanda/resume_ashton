@@ -20,7 +20,7 @@ const Hero = () => {
             <div className="w-full h-full rounded-full bg-gradient-to-r from-rose-400 to-emerald-400 p-1">
               <div className="w-full h-full rounded-full bg-white flex items-center justify-center">
                 <img 
-                  src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=300&h=300&fit=crop&crop=face"
+                  src="src/components/pictures/WhatsApp Image 2025-07-01 at 17.45.46_c2b9537d.jpg"
                   alt="Professional headshot"
                   className="w-full h-full rounded-full object-cover"
                 />
@@ -31,7 +31,7 @@ const Hero = () => {
           {/* Name and Title */}
           <div className="space-y-4">
             <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-rose-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent">
-              John Doe
+              Sibanda Ashton
             </h1>
             <p className="text-xl md:text-2xl text-gray-700 font-light">
               Network Engineer & IT Professional

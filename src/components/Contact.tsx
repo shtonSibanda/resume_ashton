@@ -19,19 +19,19 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "john.doe@email.com",
-      href: "mailto:john.doe@email.com"
+      value: "sibandaashton37@gmail.com",
+      href: "mailto:sibandaashton37@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+263 77 534 7302",
+      href: "tel:+263775347302"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "6837 New Medium Beitbridge, Zimbabwe",
       href: "#"
     }
   ];
@@ -89,7 +89,7 @@ const Contact = () => {
                   <Input 
                     type="email"
                     className="bg-gray-50 border-gray-300 text-gray-800" 
-                    placeholder="john@example.com"
+                    placeholder="@email.com"
                     required
                   />
                 </div>

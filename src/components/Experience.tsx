@@ -6,10 +6,10 @@ import { Calendar, MapPin } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "Network Engineer",
-      company: "TechCorp Solutions",
-      location: "San Francisco, CA",
-      period: "2023 - Present",
+      title: " Junior Network Engineer",
+      company: "Ashtech Systems",
+      location: "Harare, Zimbabwe",
+      period: "2025 - Present",
       description: [
         "Configure and maintain network infrastructure for small-to-medium businesses",
         "Assist with network security implementation and monitoring",
@@ -19,10 +19,10 @@ const Experience = () => {
       technologies: ["Cisco IOS", "BGP", "VLAN", "Firewalls", "Network Monitoring"]
     },
     {
-      title: "System Administrator",
-      company: "DataFlow Systems",
-      location: "Seattle, WA",
-      period: "2022 - 2023",
+      title: "Intern System Administrator",
+      company: "Municipality of Beitbridge (MOB)",
+      location: "Beitbridge, Zimbabwe",
+      period: "2023 - 2024",
       description: [
         "Managed Windows and Linux server environments for 100+ users",
         "Assisted with backup and disaster recovery procedures",
@@ -32,10 +32,10 @@ const Experience = () => {
       technologies: ["Windows Server", "Linux", "VMware", "Active Directory", "PowerShell", "Bash"]
     },
     {
-      title: "Junior Network Technician",
-      company: "Innovation Labs",
-      location: "New York, NY",
-      period: "2021 - 2022",
+      title: " Network Technician",
+      company: "Heinsky Investments(Pvt) Ltd",
+      location: "Beitbridge, Zimbabwe",
+      period: "2023 - 2025",
       description: [
         "Assisted with network infrastructure configuration and maintenance",
         "Supported network security policy implementation",
